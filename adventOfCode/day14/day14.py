@@ -27,10 +27,10 @@ def part1(template):
     # get initial frequency of individual chars
     frequency = histogram(template)
 
-    # maintian two histograms of pairs
+    # maintain two histograms of pairs
     # current_frequency to track the frequency of pairs in the current iteration
     # tmp_frequency to track the frequency of pairs in the next iteration
-    # at the end of each iterations currenct -< tmp and tmp<-{}
+    # at the end of each iterations current -< tmp and tmp<-{}
     current_frequency = {}
     tmp_frequency = {}
     for i in range(len(template) - 1):
